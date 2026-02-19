@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us – Royal Dainties Decorations</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="index.html" class="nav-logo">Royal Dainties <span>Decorations</span></a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you. Let's make your event unforgettable!</p>
+  </div>
+
+  <!-- CONTACT CARDS -->
+  <div class="contact-cards">
+    <div class="contact-card">
+      <div class="icon">💬</div>
+      <h3>Chat on WhatsApp</h3>
+      <p>Fast replies &amp; direct support</p>
+      <a href="https://wa.me/2348179653965" class="btn" target="_blank">Start Chat</a>
+    </div>
+    <div class="contact-card">
+      <div class="icon">✉️</div>
+      <h3>Send an Email</h3>
+      <p>We respond within 24 hours</p>
+      <a href="mailto:xploreeventsng@gmail.com" class="link">Email Us</a>
+    </div>
+    <div class="contact-card">
+      <div class="icon">📸</div>
+      <h3>Follow on Instagram</h3>
+      <p>See our latest work &amp; updates</p>
+      <a href="https://instagram.com" target="_blank" class="btn">Visit Instagram</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">Royal Dainties Decorations</div>
+        <p>Creating unforgettable moments with elegance, passion, and creativity.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <p>Email: xploreeventsng@gmail.com</p>
+        <p>Phone: +234 8179653965</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook">📘</a>
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="https://wa.me/2348179653965" aria-label="WhatsApp">💬</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Royal Dainties Decorations. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2348179653965" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">💬</a>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+  </script>
+</body>
+</html>
+
