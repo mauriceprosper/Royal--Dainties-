@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery – Royal Dainties Decorations</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="index.html" class="nav-logo">Royal Dainties <span>Decorations</span></a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="gallery.html" class="active">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <div class="page-hero">
+    <h1>Our Gallery</h1>
+    <p>Browse our event highlights — From magical weddings to stunning proposal setups.</p>
+  </div>
+
+  <!-- GALLERY GRID -->
+  <section class="section">
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="images/gallery1.jpg" alt="Luxury White Wedding – Lagos" />
+        <p>Luxury White Wedding – Lagos</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery2.jpg" alt="Rooftop Proposal – Abuja" />
+        <p>Rooftop Proposal – Abuja</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery3.jpg" alt="Themed Birthday – Port Harcourt" />
+        <p>Themed Birthday – Port Harcourt</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery4.jpg" alt="Bridal Shower – Lekki" />
+        <p>Bridal Shower – Lekki</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery5.jpg" alt="Corporate Dinner – Victoria Island" />
+        <p>Corporate Dinner – Victoria Island</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery6.jpg" alt="Indoor Surprise Proposal – Ikeja" />
+        <p>Indoor Surprise Proposal – Ikeja</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery7.jpg" alt="Garden Wedding – Lekki" />
+        <p>Garden Wedding – Lekki</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery8.jpg" alt="Kids Party – Port Harcourt" />
+        <p>Kids Party – Port Harcourt</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery9.jpg" alt="Budget Wedding – Ogun State Ota" />
+        <p>Budget Wedding – Ogun State Ota</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery10.jpg" alt="Surprise Proposal Picture – Ogun State Ota" />
+        <p>Surprise Proposal Picture – Ogun State Ota</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery11.jpg" alt="General Proposal at Carnival Restaurant – Ahmadu Bello Island" />
+        <p>General Proposal at Carnival Restaurant – Ahmadu Bello Island</p>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery12.jpg" alt="Proposal at The View Rooftop – Island" />
+        <p>Proposal at The View Rooftop – Island</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">Royal Dainties Decorations</div>
+        <p>Creating unforgettable moments with elegance, passion, and creativity.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <p>Email: xploreeventsng@gmail.com</p>
+        <p>Phone: +234 8179653965</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook">📘</a>
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="https://wa.me/2348179653965" aria-label="WhatsApp">💬</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Royal Dainties Decorations. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/2348179653965" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">💬</a>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+  </script>
+</body>
+  </html>
+
