@@ -1,53 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Royal Dainties Decorations | Home</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/your-code.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Royal Dainties Decorations – Celebrate in Style</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <a href="index.html" class="logo">Royal Dainties Decorations</a>
-        <nav class="nav-links">
-            <a href="index.html">Home</a>
-            <a href="services.html">Services</a>
-            <a href="about.html">About Us</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
 
-    <section class="hero">
-        <h1>Celebrate in Style</h1>
-        <p>Royal Dainties Decorations turns your moments into magical memories <br> with beautiful decor and creative designs.</p>
-        <a href="contact.html" class="btn-main">Plan Your Event</a>
-    </section>
+  <!-- NAVBAR -->
+  <nav>
+    <a href="index.html" class="nav-logo">Royal Dainties <span>Decorations</span></a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-    <div class="container">
-        <h2 class="section-title">A Little About Us</h2>
-        <div class="underline"></div>
-        <p style="text-align: center; max-width: 800px; margin: 0 auto;">At Royal Dainties Decorations, we specialize in creating unforgettable moments through expert event planning and creative decoration services in Nigeria. Whether it's a wedding or a corporate event, our team transforms your vision into a stunning reality.</p>
+  <!-- HERO -->
+  <section class="hero">
+    <img src="images/hero.jpg" alt="Beautiful event decoration" class="hero-img" />
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Celebrate in Style</h1>
+      <p>Royal Dainties Decorations turns your moments into magical memories with beautiful decor and creative designs.</p>
+      <a href="contact.html" class="btn">Plan Your Event</a>
     </div>
+  </section>
 
-    <footer>
-        <div class="footer-grid">
-            <div>
-                <h3>Royal Dainties Decorations</h3>
-                <p>Creating unforgettable moments with elegance, passion, and creativity.</p>
-            </div>
-            <div>
-                <h4>Contact Us</h4>
-                <p>Email: royaldaintiesng@gmail.com</p>
-                <p>Phone: +234 8179653965</p>
-                <div class="social-icons">
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-whatsapp"></i>
-                </div>
-            </div>
+  <!-- ABOUT BLURB -->
+  <section class="about-blurb">
+    <div class="about-blurb-text">
+      <h2>A Little About Us</h2>
+      <div class="underline-bar"></div>
+      <p>At <strong>Royal Dainties Decorations</strong>, we specialize in creating unforgettable moments through expert event planning and creative decoration services in Nigeria. Whether you're planning a wedding, surprise proposal, birthday party, corporate event, or private celebration, our team transforms your vision into a stunning reality.</p>
+      <p>With a passion for elegance and attention to detail, Royal Dainties Decorations delivers vibrant and customized event decor that reflects your unique style. From luxury proposal decorations to themed birthdays, we bring color, creativity, and professionalism to every setup. Let us turn your event into a magical experience you'll cherish forever.</p>
+    </div>
+    <div class="about-blurb-img">
+      <img src="images/about.jpg" alt="Royal Dainties Decorations event setup" />
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section">
+    <h2 class="section-title">Our Services</h2>
+    <p class="section-sub">Explore our professional event services tailored to turn your dream celebrations into reality.</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <img src="images/proposal.jpg" alt="Proposal Decorations" />
+        <div class="service-card-body">
+          <div class="icon">❤️</div>
+          <h3>Proposal Decorations</h3>
         </div>
-    </footer>
+      </div>
+      <div class="service-card">
+        <img src="images/wedding.jpg" alt="Wedding Decorations" />
+        <div class="service-card-body">
+          <div class="icon">💍</div>
+          <h3>Wedding Decorations</h3>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="images/eventplanning.jpg" alt="Event Planning" />
+        <div class="service-card-body">
+          <div class="icon">📋</div>
+          <h3>Event Planning</h3>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="images/bridalshower.jpg" alt="Bridal Shower" />
+        <div class="service-card-body">
+          <div class="icon">🥂</div>
+          <h3>Bridal Shower</h3>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="images/corporate.jpg" alt="Corporate Events" />
+        <div class="service-card-body">
+          <div class="icon">💼</div>
+          <h3>Corporate Events</h3>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="images/birthday.jpg" alt="Birthday Decorations" />
+        <div class="service-card-body">
+          <div class="icon">🎂</div>
+          <h3>Birthday Decorations</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR MOMENTS -->
+  <section class="section section-alt">
+    <h2 class="section-title">Our Moments</h2>
+    <p class="section-sub">A glimpse into some of the beautiful celebrations we've crafted with love and creativity.</p>
+    <div class="moments-grid">
+      <div class="moment-card">
+        <img src="images/moment1.jpg" alt="Traditional wedding setup" />
+        <p>Nonye and Ebuka traditional wedding was a beautiful celebration of love, with stunning decor by Royal Dainties Decorations that captured the essence of their union.</p>
+      </div>
+      <div class="moment-card">
+        <img src="images/moment2.jpg" alt="Proposal setup" />
+        <p>Damolola and Tobiloba were filled with joy as they celebrated their engagement with a stunning proposal setup by Royal Dainties Decorations.</p>
+      </div>
+      <div class="moment-card">
+        <img src="images/moment3.jpg" alt="Birthday backdrop" />
+        <p>Vibrant birthday backdrop with custom decor and colors.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section">
+    <h2 class="section-title">What Our Clients Say</h2>
+    <p class="section-sub">Real stories from happy clients who trusted us to bring their dream events to life.</p>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <img src="images/client1.jpg" alt="Ada & Chuka" class="client-img" />
+        <blockquote>"Royal Dainties Decorations transformed our wedding into a fairytale. Every detail was flawless, and the decor was breathtaking!"</blockquote>
+        <div class="client-name">— Ada &amp; Chuka</div>
+        <div class="stars">★★★★★</div>
+      </div>
+      <div class="testimonial-card">
+        <img src="images/client2.jpg" alt="Okeowo E" class="client-img" />
+        <blockquote>"My birthday setup was perfect! The colors, balloons, and attention to detail were everything I wanted and more."</blockquote>
+        <div class="client-name">— Okeowo E</div>
+        <div class="stars">★★★★★</div>
+      </div>
+      <div class="testimonial-card">
+        <img src="images/client3.jpg" alt="Virtual tech support" class="client-img" />
+        <blockquote>"They handled our corporate dinner like pros. Classy, timely, and very professional. Highly recommended."</blockquote>
+        <div class="client-name">— Virtual tech support, WEMABOD real estate</div>
+        <div class="stars">★★★★☆</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">Royal Dainties Decorations</div>
+        <p>Creating unforgettable moments with elegance, passion, and creativity.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About Us</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <p>Email: xploreeventsng@gmail.com</p>
+        <p>Phone: +234 8179653965</p>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook">📘</a>
+          <a href="#" aria-label="Instagram">📷</a>
+          <a href="https://wa.me/2348179653965" aria-label="WhatsApp">💬</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Royal Dainties Decorations. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/2348179653965" class="whatsapp-float" aria-label="Chat on WhatsApp" target="_blank">💬</a>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => navLinks.classList.toggle('open'));
+  </script>
 </body>
 </html>
